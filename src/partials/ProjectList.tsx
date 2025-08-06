@@ -16,51 +16,59 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Citrus Disease Detection System"
+        description="Website build on the MERN stack . Integrated the Ai model for the Citrus Disease Detection . It will show the 
+          Disease name , damage of fruit and guide to get out of this disease.
+          "
+        link="https://fyp-front-end-theta.vercel.app/"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: './src/images/citrus.png',
+          alt: 'Citrus Disease Detection image',
+          target: '_blank',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Chart.js</Tags>
             <Tags color={ColorTags.LIME}>Web design</Tags>
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.ROSE}>React</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        name="Ecommerce Project"
+        description="Ecommerce Project having the functionalities of filter the categories of products . 
+        Dynamic filering. Shopping  cart functionality setup .
+        "
+        link="https://shopping-qqrf7puun-muhammad-waris-salehs-projects.vercel.app/login"
+        img={{
+          src: './src/images/ecommerce.jpg',
+          alt: 'Project Fire',
+          target: '_blank',
+        }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
+            <Tags color={ColorTags.EMERALD}>Store</Tags>
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
           </>
         }
       />
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        name="Lahore METRO Bus tracking system "
+        description="Real time tracking system .  User can see , search out for the destination . Website will show the busses for that route . It also shows 
+        their timings.  "
+        link="https://bus-search-and-tracking-website.vercel.app/"
+        img={{
+          src: './src/images/bus.jpg',
+          alt: 'Bus Image',
+          target: '_blank',
+        }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.BLUE}>React.js</Tags>
+            <Tags color={ColorTags.BLUE}>TailwindCss</Tags>
+            <Tags color={ColorTags.YELLOW}>Javascript</Tags>
           </>
         }
       />

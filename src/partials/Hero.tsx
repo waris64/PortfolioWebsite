@@ -10,55 +10,43 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Muhammad Waris Saleh</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          I'm Waris — a Full Stack Developer who builds fast, scalable web apps
+          and automation systems that get things done. From React and Next.js
+          frontends to Node.js backends, I specialize in clean code, smart
+          workflows, and AI-powered tools. Whether it's building Chrome
+          extensions, automating daily YouTube pipelines, or crafting WordPress
+          sites from scratch — I turn ideas into shipping products, fast.{' '}
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="max-h-80 w-64  rounded"
+          src="/src/images/profile.png"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
+          <a href="https://web.facebook.com/Waris029/">
             <HeroSocial
               src="/assets/images/facebook-icon.png"
               alt="Facebook icon"
             />
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/muhammad-waris-saleh/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
-            />
+          <a href="https://x.com/Waris029" className="pl-1">
+            <HeroSocial src="src/images/twitter.png" alt="" />
           </a>
         </>
       }
