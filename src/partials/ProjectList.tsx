@@ -55,7 +55,7 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Lahore METRO Bus tracking system "
+        name="Lahore Metro Bus tracking system "
         description="Real time tracking system .  User can see , search out for the destination . Website will show the busses for that route . It also shows 
         their timings.  "
         link="https://bus-search-and-tracking-website.vercel.app/"
